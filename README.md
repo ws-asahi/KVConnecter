@@ -2,6 +2,13 @@
 - Arudino + イーサネットシールドを使用してキーエンス製PLCと上位リンク接続を行うためのライブラリです。
 - Keyence PLC upper link library for arduino with ethernet shield.
 
+## Arduinoって何？ / What is Arduino
+ - 世界的に利用されているイタリア発の汎用マイコンボードです。安価で学習教材として使われる一方産業用向けの安定性も兼ね備えます。
+ - Very popular in all over the world micro compute boardfrom Italy. Economical and good for hardware study and industry.
+
+ - ボード上ではC言語で記述されたプログラムが実行され、PLCの代わりに複雑な演算、HTTP、SQLなどのネットワーク接続、CAN-BUSなどのシリアルバスへの接続が可能です。
+ - Run C language program on this board. Instead difficult compute, like HTTP or SQL network communication, connect like CAN-BUS or I2C of the PLC.
+
 ## サポートしているPLC / Supported PLC
  - KV-3000
  - KV-5000
